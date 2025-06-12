@@ -1,7 +1,2 @@
-mkdir .streamlit
-echo "\
-[server]
-headless = true
-port = 8501
-enableCORS = false
-" > .streamlit/config.toml
+[global]
+pythonVersion = "3.11"
